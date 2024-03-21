@@ -1,0 +1,55 @@
+CODE-1
+import pandas as pd
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.tag import pos_tag
+
+# Function to extract tags from description
+def extract_tags(description):
+    tokens = word_tokenize(description)
+    tagged = pos_tag(tokens)
+    tags = [word for word, pos in tagged if pos == 'NNP' and word in ['Math', 
+                                                                      'English',
+                                                                      'Science',
+                                                                      'History',
+                                                                      'Geography', 
+                                                                      'Sports']]
+    return tags
+
+# Read CSV file
+data = pd.read_csv('/content/sample_data/student.csv')
+
+# Update data with extracted tags
+data['Tags'] = data['Description'].apply(extract_tags)
+
+# Save updated data back to CSV
+data.to_csv('updated_file.csv', index=False)
+
+
+
+
+CODE-2
+import pandas as pd
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.tag import pos_tag
+
+# Function to extract important words based on criteria
+def extract_important_words(description):
+    tokens = word_tokenize(description)
+    tagged = pos_tag(tokens)
+    
+    # Define your criteria for selecting important words here
+    important_words = [word for word, pos in tagged if pos.startswith('NN') 
+    or pos.startswith('VB')]  # Example: Nouns and Verbs
+    
+    return important_words
+
+# Read CSV file
+data = pd.read_csv('/content/sample_data/student.csv')
+
+# Update data with extracted important words
+data['Important_Words'] = data['Description'].apply(extract_important_words)
+
+# Save updated data back to CSV
+data.to_csv('updated_file-2.csv', index=False)
