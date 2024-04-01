@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school/"
+     xml:base="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Assistant_Professors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Assistant_Professors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Associate_Professors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Associate_Professors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Authors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Authors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Biochemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Biochemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Courses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Courses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Cs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Cs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University:"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Doctoral_Degrees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Doctoral_Degrees">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Masters_Degrees"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Email_Addresses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Email_Addresses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Entc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Entc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Full_Professors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Full_Professors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Undergraduate_Students"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Lecturers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Lecturers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Masters_Degrees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Masters_Degrees">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Microbiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Microbiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Names -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Names">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#PostDocs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#PostDocs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publication_Dates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publication_Dates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publishers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publishers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Groups -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Groups">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Projects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Projects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Undergraduate_Students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Undergraduate_Students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University"/>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Visiting_Professors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Visiting_Professors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University: -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University:">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Assistant_Professors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Associate_Professors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Full_Professors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Visiting_Professors"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Authors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publication_Dates"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publishers"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Courses"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Email_Addresses"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Names"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Lecturers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#PostDocs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Groups"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Projects"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

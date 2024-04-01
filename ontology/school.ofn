@@ -1,0 +1,196 @@
+Prefix(:=<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school>
+
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Assistant_Professors>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Associate_Professors>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Authors>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Biochemistry>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Courses>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Cs>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Doctoral_Degrees>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Email_Addresses>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Entc>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Full_Professors>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Lecturers>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Masters_Degrees>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Microbiology>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Names>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#PostDocs>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publication_Dates>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publishers>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Groups>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Projects>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Undergraduate_Students>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Visiting_Professors>))
+Declaration(Class(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University:>))
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Assistant_Professors> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Assistant_Professors>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Assistant_Professors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Associate_Professors> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Associate_Professors>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Associate_Professors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Authors> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Authors>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Authors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Biochemistry> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Biochemistry>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Biochemistry> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Courses> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Courses>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Courses> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Cs> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Cs>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Cs> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University:>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Doctoral_Degrees> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Doctoral_Degrees>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Doctoral_Degrees> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees>)
+DisjointClasses(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Doctoral_Degrees> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Masters_Degrees>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Email_Addresses> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Email_Addresses>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Email_Addresses> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Entc> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Entc>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Entc> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Btech>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Full_Professors> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Full_Professors>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Full_Professors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students>)
+DisjointClasses(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Graduate_Students> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Undergraduate_Students>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Lecturers> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Lecturers>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Lecturers> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Masters_Degrees> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Masters_Degrees>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Masters_Degrees> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Microbiology> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Microbiology>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Microbiology> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#BSc>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Names> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Names>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Names> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#PostDocs> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#PostDocs>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#PostDocs> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publication_Dates> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publication_Dates>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publication_Dates> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publishers> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publishers>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publishers> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Groups> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Groups>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Groups> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous>)
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Projects> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Projects>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Projects> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Departments>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Undergraduate_Students> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Undergraduate_Students>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Undergraduate_Students> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Visiting_Professors> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Visiting_Professors>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Visiting_Professors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors>)
+
+# Class: <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University:> (<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University:>)
+
+SubClassOf(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University:> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#University>)
+
+
+DisjointClasses(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Assistant_Professors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Associate_Professors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Full_Professors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Visiting_Professors>)
+DisjointClasses(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Authors> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publication_Dates> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publishers>)
+DisjointClasses(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Courses> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Degrees> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Faculty> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Miscellaneous> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Publications> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Students>)
+DisjointClasses(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Email_Addresses> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Names> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests>)
+DisjointClasses(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Lecturers> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#PostDocs> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Professors>)
+DisjointClasses(<http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Groups> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Interests> <http://www.semanticweb.org/guptgau03/ontologies/2024/2/school#Research_Projects>)
+)

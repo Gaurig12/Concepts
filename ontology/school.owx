@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school">
+    <Prefix name="" IRI="http://www.semanticweb.org/guptgau03/ontologies/2024/2/school/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Assistant_Professors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Associate_Professors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BSc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biochemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Btech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degrees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Departments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctoral_Degrees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email_Addresses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Full_Professors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graduate_Students"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lecturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masters_Degrees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microbiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Miscellaneous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Names"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostDocs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publication_Dates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publishers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Groups"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Interests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Projects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Students"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Undergraduate_Students"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visiting_Professors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University:"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Assistant_Professors"/>
+        <Class IRI="#Professors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Associate_Professors"/>
+        <Class IRI="#Professors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Authors"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BSc"/>
+        <Class IRI="#Graduate_Students"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biochemistry"/>
+        <Class IRI="#BSc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Btech"/>
+        <Class IRI="#Graduate_Students"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courses"/>
+        <Class IRI="#Departments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cs"/>
+        <Class IRI="#Btech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Degrees"/>
+        <Class IRI="#Departments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Departments"/>
+        <Class IRI="#University:"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctoral_Degrees"/>
+        <Class IRI="#Degrees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email_Addresses"/>
+        <Class IRI="#Miscellaneous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entc"/>
+        <Class IRI="#Btech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <Class IRI="#Departments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Full_Professors"/>
+        <Class IRI="#Professors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graduate_Students"/>
+        <Class IRI="#Students"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lecturers"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masters_Degrees"/>
+        <Class IRI="#Degrees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microbiology"/>
+        <Class IRI="#BSc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miscellaneous"/>
+        <Class IRI="#Departments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Names"/>
+        <Class IRI="#Miscellaneous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostDocs"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professors"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publication_Dates"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publications"/>
+        <Class IRI="#Departments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publishers"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research"/>
+        <Class IRI="#Departments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Groups"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Interests"/>
+        <Class IRI="#Miscellaneous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Interests"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Projects"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Students"/>
+        <Class IRI="#Departments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Undergraduate_Students"/>
+        <Class IRI="#Students"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visiting_Professors"/>
+        <Class IRI="#Professors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University:"/>
+        <Class IRI="#University"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Assistant_Professors"/>
+        <Class IRI="#Associate_Professors"/>
+        <Class IRI="#Full_Professors"/>
+        <Class IRI="#Visiting_Professors"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Authors"/>
+        <Class IRI="#Publication_Dates"/>
+        <Class IRI="#Publishers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Courses"/>
+        <Class IRI="#Degrees"/>
+        <Class IRI="#Faculty"/>
+        <Class IRI="#Miscellaneous"/>
+        <Class IRI="#Publications"/>
+        <Class IRI="#Research"/>
+        <Class IRI="#Students"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Doctoral_Degrees"/>
+        <Class IRI="#Masters_Degrees"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Email_Addresses"/>
+        <Class IRI="#Names"/>
+        <Class IRI="#Research_Interests"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Graduate_Students"/>
+        <Class IRI="#Undergraduate_Students"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lecturers"/>
+        <Class IRI="#PostDocs"/>
+        <Class IRI="#Professors"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Research_Groups"/>
+        <Class IRI="#Research_Interests"/>
+        <Class IRI="#Research_Projects"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
